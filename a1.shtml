@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 1: Helloworld" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 1: Helloworld</h2>
+
+                        <p class="lead">setting up github, p5.js, and your homepage</p>
+                    </div>
+                </div>
+                <div id="week1" class="sidenav-anchor">
+                    <a name="week1"></a>
+                    <h2>Week 1: One, Two, Three</h2>
+                    <p>
+                    Follow this class tutorial to setup your Github account, your github.io homepage, and your first p5.js sketch. Once you have p5.js working, add a word and a couple of shapes to your sketch. Make sure between all the elements and the background you have at least three different colors. You won’t be graded on aesthetics for this first assignment, but do feel free to have fun with type, palettes, and layout if you wish.
+                    </p><p>
+                    You should finish with:
+                    <ul>
+                        <li>your Github <i>@handle</i> you’ve emailed to Agnes</li>
+                        <li>a <i>yourname.github.io</i> url showing 1 word, 2 shapes, 3 colors</li>
+                    </ul></p>
+                </div>
+                <div id="week2" class="sidenav-anchor">
+                    <a name="week2"></a>
+                    <h2>Week 2: Add Time</h2>
+                    <p>
+                    For practice, let’s turn your “One, Two, Three” composition into an ugly clock. This is about working with time and JavaScript, so again, don’t worry about looking pretty.
+                    </p><p>
+                    Follow the p5.js reference on <a href="https://p5js.org/reference/#/p5/hour">hours</a>, <a href="https://p5js.org/reference/#/p5/minute">minutes</a>, and <a href="https://p5js.org/reference/#/p5/second">seconds</a> to get the current time number, then use that number to <a href="https://p5js.org/reference/#/p5/second">rotate</a>, <a href="https://p5js.org/reference/#/p5/scale">scale</a>, <a href="https://p5js.org/reference/#/p5/translate">translate</a>, or change color on your elements. Here’s an (ugly) example.
+                    </p>
+                    <p>Remember: if it’s not ugly you’re doing it wrong.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>

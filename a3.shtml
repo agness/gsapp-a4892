@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 3: Text" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 3: Text</h2>
+
+                        <p class="lead">working with and text data, layout, and basic interactivity</p>
+                    </div>
+                </div>
+                <div id="week1" class="sidenav-anchor">
+                    <a name="week1"></a>
+                    <h2>Week 1: One dataset visualized two ways</h2>
+                    <p>
+                    Follow this class tutorial to use an API and choose your data source from either NYTimes or Spotify.
+                    </p><p>
+                    Create two designs to represent your data, making sure you have a minimum of 20 data points represented (you don’t need to show everything returned from the API.) Create both of these in p5.js and post them on your homepage. Consider making flat sketches before you venture into code.</p>
+                </div>
+                <div id="week2" class="sidenav-anchor">
+                    <a name="week2"></a>
+                    <h2>Week 2: Make one interactive</h2>
+                    <p>
+                    Choose one of your designs to make interactive, revealing an additional piece of information when the user interacts with it via mouse or keyboard.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>

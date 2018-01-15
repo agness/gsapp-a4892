@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <!--#set var="title" value="XYZ Design Studio - Syllabus" -->
+  <!--#set var="title" value="GSAPP DataVis - Syllabus" -->
   <!--#include virtual="includes/header.shtml" -->
 </head>
 
@@ -10,28 +10,26 @@
   <!--#include virtual="includes/navigation.html" -->
 
   <div class="container">
-  	<div class="row">
+    <div class="row">
 
-  		<div class="col-md-2">
+      <div class="col-md-2">
         <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
           <ul class="nav nav-stacked" id="sidenav-content"></ul>
         </div> <!-- /sidenav -->
       </div> <!-- /col-md-2 -->
 
       <div class="col-md-8" id="syllabus">
-	      	<h1>Syllabus</h1>
+          <h1>Syllabus</h1>
 
-  			<div id="overview" class="sidenav-anchor">
-  				<h3>Overview</h3>
-  				<p>This class is titled HCI Design Studio because its goal is to give you an advanced design studio experience. Studio is a central component of class: each studio is headed by an industry professional with years of experience in design and user experience. Thank you to the Computer Science department for financial support for studio instructors.</p>
+        <div id="overview" class="sidenav-anchor">
+          <h3>Overview</h3>
+          <p>This course provides an introduction to data visualization theory and methods for students entirely new to the fields of computation and information design. Through a series of in-class exercises and take-home assignments, students will learn how to critically engage and produce interactive data visualization pieces that can serve as exploratory and analytical tools. The course is part of a larger initiative, hosted by the <a href="c4sr.columbia.edu">Center for Spatial Research</a> to teach courses in the critical use of digital tools across fields in architecture, urbanism, and the humanities.</p>
 
-  				<p>Studios will provide you an opportunity to meet in smaller groups in order to discuss and reflect on assignments and progress. They will focus on interactive critique sessions, as well as specific activities intended to supplement and expand on ideas from lectures.</p>
-
-  				<p>Students must sign up for their studio on the first day of class.</p>
-  			</div>
+          <p>The course will be centered around a semester long data visualization group project, through which the students will learn the basics of data visualization, data analysis, data collection, programming and version control. However, even though the course will teach specific visualization tools, the main conceptual thread will be centered around how to work with data, both in the humanities and in architecture and urbanism. Students will define their final projects around their own interests, and will bring their own datasets into their final projects.</p>
+        </div>
 
         <div id="topics" class="sidenav-anchor">
-          <h3>Course Topics</h3>
+          <h3>General Topics</h3>
           <ul>
             <li>Data visualization history and concepts</li>
             <li>Working with data: collection and analysis</li>
@@ -44,18 +42,145 @@
           </ul>
         </div>
 
-  			<div id="grading" class="sidenav-anchor">
-  				<h3>Evaluation and Grading</h3>
+        <div id="schedule" class="sidenav-anchor">
+          <h3>Schedule</h3>
+          <!--#include virtual="includes/schedule.html" -->
+        </div> <!-- calendar end -->
+
+        <div id="grading" class="sidenav-anchor">
+          <h3>Grading</h3>
           <ul>
-            <li>10% Class participation and discussion</li>
-            <li>30% Individual assignments</li>
-            <li>25% Data visualization critique</li>
-            <li>35% Final project and final presentation</li>
+            <li>40% Weekly assignments</li>
+            <li>35% Final project</li>
+            <li>25% Participation and discussion</li>
           </ul>
         </div>
 
-  		</div> <!-- /col-md-8 -->
-  	</div> <!-- /row -->
+        <div id="assignments" class="sidenav-anchor">
+          <h3>Assignments</h3>
+          <ul>
+            <li><a href="a0.shtml">A0 Sharpie Instructions</a>: letter-size sheet of paper + a sharpie. I’ll explain.</li>
+            <li><a href="a1.shtml">A1 Helloworld</a>: setting up github, p5.js, and your homepage.</li>
+            <li><a href="a2.shtml">A2 Clocks</a>: a series of exercises in visualizing time.</li>
+            <li><a href="a3.shtml">A3 Text</a>: working with and text data, layout, and basic interactivity.</li>
+            <li><a href="a4.shtml">A4 Geography</a>: working with more complex datasets (e.g. Census, World Bank), multiple dimensions, and more interactivity.</li>
+            <li><a href="a5.shtml">A5 Misrepresentation</a>: design, as critique, a visualization that is misleading while being a technically accurate representation of the data set.</li>
+            <li><a href="a6.shtml">A6 Generative Form</a>: build a generative aesthetic representation of a self-chosen dataset.</li>
+            <li><a href="a7.shtml">A7 Final Project</a>: follow your own data adventure and define a project around your own interests.</li>
+          </ul>
+        </div>
+
+        <div id="logistics" class="sidenav-anchor">
+          <h3>Logistics</h3>
+          <ul>
+            <li>Unless otherwise noted, each week we will begin class with 3min. presentations and discussion on the weekly assignment and reading.</li>
+            <li>Lecture slides, readings, assignments and tutorials will be posted to this course website unless otherwise announced.</li>
+            <li>Post questions, ideas, confusions, complaints and excitement to Piazza. Office hours by individual appointment.</li>
+          </ul>
+        </div>
+
+        <div id="caveat-emptor" class="sidenav-anchor">
+          <h3>Caveat Emptor</h3>
+          Reasons you might plausibly want to take or drop this class:
+          <ul>
+            <li>This class is about “learning by making”: we will read and we will discuss, but it’s mainly about making.</li>
+            <li>There will be code in this class: you are not expected to have prior programming experience and class lectures and materials will reflect this expectation, but if that is the case, expect to spend more time on your first few assignments than your peers.</li>
+            <li>We will use p5.js as the main development platform in this class but you are welcome to choose other tools as long as your work can be presented on the web. You are otherwise encouraged to combine your workflow with other tools you are already familiar with (analog or digital!)</li>
+            <li>While the main theme of this class is geospatial data—i.e. datasets that capture an aspect of the human relationship to space and geography—this class will <u>not</u> teach you how to make charts, maps, or choropleths*. Instead, the goal is to help you learn to make flexible, custom visual representations.<br>
+            <small style="color: #999;">(*This is a choropleth: <img style="max-width: 300px;" src="https://static01.nyt.com/newsgraphics/2016/11/01/election-map-forms/738e8fe0f4e6d89ec6cb63555d3deb92e772f916/counties.png">, source: <a href="https://www.nytimes.com/interactive/2016/11/01/upshot/many-ways-to-map-election-results.html">NYTimes.com</a>)</small></li>
+          </ul>
+        </div>
+
+        <div id="resources" class="sidenav-anchor">
+          <h3>Resources</h3>
+        <div id="tutorials" class="sidenav-anchor">
+          <h4>Web Tutorials</h4>
+            <ul>
+              <li><a href="http://vis4.net/blog/posts/avoid-equidistant-hsv-colors/">How to Avoid Equidistant HSV Colors</a></li>
+              <li><a href="https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/">Your Friendly Guide to Colors in Data Visualization</a></li>
+              <li><a href="https://datavisualization.ch/inside/how-we-created-color-scales/">How We Created Color Scales</a>
+            </ul>
+        </div>
+
+        <div id="books" class="sidenav-anchor">
+          <h4>Books</h4>
+
+            <h5>Data Visualization</h5>
+            <ul>
+              <li>Data Flow: Visualizing Information in Graphic Design</li>
+              <li>Data Flow 2: Visualizing Information in Graphic Design</li>
+              <li>Data Points, Nathan Yau</li>
+              <li>Visualizing Information for Advocacy, Tactical Technology Creative</li>
+              <li>Design for Information, Isabel Meirelles</li>
+              <li>Semiology of Graphics, Jacques Bertin</li>
+              <li>The Visual Display of Quantitative Information (2nd Edition), Edward R. Tufte</li>
+              <li>Envisioning Information, E. R. Tufte</li>
+              <li>Visualization Analysis and Design, Tamara Munzer</li>
+              <li>Dear Data, Giorgia Lupi, Stefanie Posavec</li>
+              <li>Show Me the Numbers: Designing Tables and Graphs to Enlighten, Stephen Few</li>
+              <li>Now You See It: Simple Visualization Techniques for Quantitative Analysis, Stephen Few</li>
+              <li>Information Visualization: Perception for Design, Colin Ware</li>
+              <li>The Functional Art: An Introduction ton Information Graphics and Visualization, Alberto Cairo</li>
+            </ul>
+
+            <h5>Programming</h5>
+            <ul>
+              <li>Data Flow: Visualizing Information in Graphic Design</li>
+              <li>Data Flow 2: Visualizing Information in Graphic Design</li>
+              <li>Data Points, Nathan Yau</li>
+            </ul>
+
+            <h5>Graphic Design</h5>
+            <ul>
+              <li>Data Flow: Visualizing Information in Graphic Design</li>
+              <li>Data Flow 2: Visualizing Information in Graphic Design</li>
+              <li>Data Points, Nathan Yau</li>
+            </ul>
+          </div>
+
+          <div id="blogs-websites" class="sidenav-anchor">
+            <h4>Blogs &amp; Websites</h4>
+            <ul>
+              <li><a href="http://www.visualisingdata.com/">Visualizing Data</a></li>
+              <li><a href="http://flowingdata.com">Flowingdata</a></li>
+              <li><a href="http://periscopic.com">Periscopic</a></li>
+              <li><a href="http://accurat.it">Accurat</a></li>
+              <li><a href="http://truth-and-beauty.net/">Moritz Stefaner</a></li>
+              <li><a href="http://feltron.com">Nocholas Felton</a></li>
+              <li><a href="http://www.thefunctionalart.com/">The Functional Art</a></li>
+              <li><a href="http://visualcomplexity.com">Visualcomplexity</a></li>
+              <li><a href="https://www.reddit.com/r/dataisbeautiful/">The r/dataisbeautiful subreddit</a></li>
+              <li><a href="http://www.economist.com/blogs/graphicdetail">The Economist - Graphic Detail</a></li>
+              <li><a href="https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html">The New York Times’ interactives</a></li>
+              <li><a href="http://www.nytimes.com/upshot/">New York Times - The Upshot</a></li>
+              <li><a href="http://visualoop.com/">Visualoop</a></li>
+              <li><a href="https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/">FiveThirtyEight</a></li>
+              <li><a href="http://www.latimes.com/visuals/graphics/">LA Times</a></li>
+              <li><a href="http://graphics.wsj.com/wsj-interactives-2014/">Wall Street Journal</a></li>
+              <li><a href="https://twitter.com/PostGraphics">Washington Post</a></li>
+              <li><a href="http://qz.com/318339/all-of-the-charts-we-made-in-2014/">Quartz</a></li>
+              <li><a href="https://www.theguardian.com/interactive">The Guardian's interactives</a></li>
+              <li><a href="http://fathom.info/">Fathom</a></li>
+              <li><a href="http://map.datacanvas.org/#">Data Canvas</a></li>
+              <li><a href="http://www.laphamsquarterly.org/archive/charts-graphs">Lapham's Quaterly Charts and Graphs</a></li>
+              <li><a href="https://www.informationisbeautifulawards.com/">Information is Beautiful Awards</a></li>
+              <li><a href="http://www.maartenlambrechts.com/2017/12/28/the-list-of-2017-visualization-lists.html">The list of 2017 visualization lists</a></li>
+            </ul>
+
+          </div>
+
+          <div id="software" class="sidenav-anchor">
+            <h4>Software</h4>
+            <ul>
+              <li>Sublime</li>
+              <li>Atom</li>
+              <li>...</li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- /col-md-8 -->
+    </div> <!-- /row -->
 
   </div> <!-- /container -->
 

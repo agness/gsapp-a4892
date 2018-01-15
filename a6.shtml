@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 6: Generative Form" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 6: Generative Form</h2>
+
+                        <p class="lead">build a generative aesthetic representation of a self-chosen dataset</p>
+                    </div>
+                </div>
+
+                <p>Choose your own data set from:
+                    <ul>
+                    <li>Personal</li>
+                    <li>Your research/thesis</li>
+                    <li>Explain a complex concept</li>
+                    <li>Explore an open-ended story</li>
+                    </ul>
+                </p><p>
+                Design and build a generative aesthetic representation of your chosen data set. Your representation may or may not be legible but it should convey some aspect (e.g. emotional, complexity, dynamicism, rhythm, etc.) of the data set.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>

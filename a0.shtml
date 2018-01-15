@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 0: Sharpie Instructions" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 0: Sharpie Instructions</h1>
+                        <p class="lead">
+data viz with a sharpie and a letter-sized sheet of paper</p>
+                    </div>
+                </div>
+
+            <p>
+            First, choose one aspect of your daily life on which to collect personal data for the next 7 days. This can be as simple as “Brushed teeth: yes/no” or as complex as “Wake up mood: feeling daunted by to-do list, like I need a egg-and-cheese croissant kind of morning.”
+            </p><p>
+            In any case, make sure you will have 7 data points by the end of the week. Using only a black sharpie, a letter-size sheet of white paper, draw a simple visual representation of your data.
+            </p><p>
+            Now write a set of instructions, in English, step-by-step, such that a classmate will be able to recreate your visualization in under 3min. without having ever seen your original drawing. Bring your instructions to class.
+            </p>
+
+            </div>
+        </div>
+
+    </div>
+
+  </body>
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</html>

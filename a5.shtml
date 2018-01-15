@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 5: Misrepresentation" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 5: Misrepresentation</h2>
+
+                        <p class="lead">design, as critique, a visualization that is misleading while being an accurate representation of the data</p>
+                    </div>
+                </div>
+
+                <p>You’ll be creating a presentation for this assignment.
+                </p><p>
+                Choose a dataset that reflects or is related to an issue you care about. Design a visualization that is misleading while being a technically accurate representation of the data set. Tell us about the dataset and your critique of your own representation.</p>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>

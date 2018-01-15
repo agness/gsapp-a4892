@@ -39,10 +39,10 @@ a, a:hover {
   /* defaults to bootstrap blue if not specified */
   /*color: #9bddff;*/
 }
-
-#calendar small {
+/*
+#schedule small {
   color: #bbb;
-}
+}*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -389,12 +389,12 @@ td h6 {
   margin-top: 0;
 }
 
-#calendar td {
+#schedule td {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-#calendar p {
+#schedule p {
   margin-bottom: 5px;
 }
 

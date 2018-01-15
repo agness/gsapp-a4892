@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 4: Geography" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 4: Geography</h2>
+
+                        <p class="lead">working with more complex datasets, multiple dimensions, and more interactivity.</p>
+                    </div>
+                </div>
+
+                <div id="week1" class="sidenav-anchor">
+                    <a name="week1"></a>
+                    <h2>Week 1: Three abstractions, one coded</h2>
+                    <p>
+                    Choose your data source from one of these files provided:
+                    <ul>
+                        <li>Census</li>
+                        <li>PLUTO</li>
+                        <li>IMF/World Bank</li>
+                        <li>Climate</li>
+                        <li>Citibike</li>
+                    </ul>
+                    </p><p>
+                    Decide what dimensions you’re interested in and represent them any way you want, i.e., find your own “story in the data.” Produce three flat sketches of different layers or related dimensions found in your chosen dataset. Build one of your representations in code.</p><p>
+                    Post your three flat sketches and one code sketch to your homepage.</p>
+                </div>
+                <div id="week2" class="sidenav-anchor">
+                    <a name="week2"></a>
+                    <h2>Week 2: Multi-view interactive</h2>
+                    <p>
+                    Turn your visualization into a multi-view interactive by adding another representation that the user can trigger or toggle between. Consider how you might transition between the two views.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 2: Clocks" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 2: Clocks</h1>
+
+                        <p class="lead">
+a series of exercises in visualizing time</p>
+
+                    </div>
+                </div>
+
+
+                <div id="week1" class="sidenav-anchor">
+                    <a name="week1"></a>
+                    <h2>Week 1: Sketches, flat</h2>
+                    <p>
+                        Using pen and paper or your favorite 2D drawing software, create 12 (yes, one dozen) different visual representations of a clock. This is a creative interpretation of the clock, so focus on aesthetics and inventiveness—ignore whether or not you know how to code it. Your interpretation needs to be legible to you, the author, and you need to be able to explain how the time is derived visually at any given point. Otherwise, play with making your clocks look as different as possible. Think about the different states of the clock at different moments in time.
+                    </p><p>
+                    When you’re done, follow this class tutorial to commit your sketches to github and link them from your homepage.
+                    </p>
+                </div>
+                <div id="week2" class="sidenav-anchor">
+                    <a name="week2"></a>
+                    <h2>Week 2: Three sketches, in code</h2>
+                    <p>
+                    Choose three of your designs to build in code. Post them to github and link them from your homepage.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include virtual="includes/footer.shtml" -->
+
+  </body>
+</html>
