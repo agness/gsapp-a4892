@@ -18,19 +18,26 @@
         </div> <!-- /sidenav -->
       </div> <!-- /col-md-3 -->
 
-      <div class="col-md-8" id="resources">
-	      <h1>Tutorials &amp; Demo Code</h1>
+      <div class="col-md-8" id="tutorials">
+	      <h1>Tutorials &amp; Demos</h1>
 
-        <i>TK</i>
-<!--
         <div id="tutorials" class="sidenav-anchor">
-          <h3>Web Tutorials</h3>
+          <h3>Tutorials</h3>
             <ul>
-              <li><a href="http://vis4.net/blog/posts/avoid-equidistant-hsv-colors/">How to Avoid Equidistant HSV Colors</a></li>
-              <li><a href="https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/">Your Friendly Guide to Colors in Data Visualization</a></li>
-              <li><a href="https://datavisualization.ch/inside/how-we-created-color-scales/">How We Created Color Scales</a>
+              <li>T1: <a href="t1.shtml">Set up github + p5.js + your homepage</a></li>
+              <li>T2: TK Making HTML pages and links</li>
+              <li>T3: TK Using time in JS</li>
+              <li>T4: TK Accessing APIs via JavaScript</li>
             </ul>
-        </div> -->
+        </div>
+
+        <div id="code-demo" class="sidenav-anchor">
+          <h3>Code Demos</h3>
+            <ul>
+              <li>Week 2 TK: HTML example <a href="404.shtml">1</a></li>
+              <li>Week 2 TK: Clock example <a href="404.shtml">1</a>, <a href="404.shtml">2</a>, <a href="404.shtml">3</a>, <a href="404.shtml">4</a></li>
+            </ul>
+        </div>
 
       </div> <!-- /col-md-8 -->
     </div> <!-- /row -->
