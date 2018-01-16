@@ -1,12 +1,12 @@
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Interaction Design Studio">
+<meta name="description" content="An introduction to data visualization theory and methods for students new to the fields of computation and information design. The course is part of the Center for Spatial Research, advancing the critical use of digital tools across fields in architecture, urbanism, and the humanities.">
 <title><!--#echo var="title" --></title>
 
 <!-- Open Graph Metadata -->
 <meta property="og:image" content="https://cdn.filepicker.io/api/file/gd8QqEG4Sg6vJSP0Pd04/convert?fit=max&amp;format=&amp;quality=95&amp;w=2048&amp;compress=true" />
-<meta property="og:site_name" content="XYZ Design Studio | A1234" />
+<meta property="og:site_name" content="Data Visualization for Architecture, Urbanism and the Humanities | GSAPP A4892 Spring 2018" />
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
