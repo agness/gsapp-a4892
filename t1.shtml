@@ -182,7 +182,9 @@
                   <img src="img/t1-16.png" class="img-responsive">
                 </td>
                 <td class="col-md-4">
-                  Open the p5.js download and open the <i>index.html</i> file under <i>empty-example</i> folder.
+                  <u>Update Jan.21.2018:</u> Please download <a href="static/t1/sketch.js">this sketch.js</a> file and replace the one in your <i>/empty-example</i> folder before proceeding.
+                  <br><br>
+                  Open the p5 folder and open the <i>index.html</i> file under <i>empty-example</i> folder.
                 </td>
               </tr>
               <tr>
