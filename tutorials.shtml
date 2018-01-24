@@ -25,17 +25,16 @@
           <h3>Tutorials</h3>
             <ul>
               <li>T1: <a href="t1.shtml">Set up github + p5.js + your homepage</a></li>
-              <li>T2: TK Making HTML pages and links</li>
-              <li>T3: TK Using time in JS</li>
-              <li>T4: TK Accessing APIs via JavaScript</li>
+              <li>T2: <a href="t2.shtml">Making HTML pages and links</a></li>
+              <li>T3: TK Accessing APIs via JavaScript</li>
             </ul>
         </div>
 
         <div id="code-demo" class="sidenav-anchor">
           <h3>Code Demos</h3>
             <ul>
-              <li>Week 2 TK: HTML example <a href="404.shtml">1</a></li>
-              <li>Week 2 TK: Clock example <a href="404.shtml">1</a>, <a href="404.shtml">2</a>, <a href="404.shtml">3</a>, <a href="404.shtml">4</a></li>
+              <li>Week 2: <a href="https://github.com/ac3882/ac3882.github.io">Agnes' HTML Pages on GitHub</a>, and Agnes' <a href="https://ac3882.github.io/A1/index.html">A1.2 ugly clock</a></li>
+              <li><i>Week 3 TO-COME: Clock examples <a href="404.shtml">1</a>, <a href="404.shtml">2</a>, <a href="404.shtml">3</a>, <a href="404.shtml">4</a></i></li>
             </ul>
         </div>
 

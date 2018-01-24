@@ -45,7 +45,7 @@
                     <p>
                     For practice, let’s turn your “One, Two, Three” composition into an ugly clock. This is about working with time and JavaScript, so again, don’t worry about looking pretty.
                     </p><p>
-                    Follow the p5.js reference on <a href="https://p5js.org/reference/#/p5/hour">hours</a>, <a href="https://p5js.org/reference/#/p5/minute">minutes</a>, and <a href="https://p5js.org/reference/#/p5/second">seconds</a> to get the current time number, then use that number to <a href="https://p5js.org/reference/#/p5/second">rotate</a>, <a href="https://p5js.org/reference/#/p5/scale">scale</a>, <a href="https://p5js.org/reference/#/p5/translate">translate</a>, or change color on your elements. Here’s an (ugly) example.
+                    Follow the p5.js reference on <a href="https://p5js.org/reference/#/p5/hour">hours</a>, <a href="https://p5js.org/reference/#/p5/minute">minutes</a>, and <a href="https://p5js.org/reference/#/p5/second">seconds</a> to get the current time number, then use that number, via a <a href="https://p5js.org/reference/#/p5/map">mapping</a>, to <a href="https://p5js.org/reference/#/p5/second">rotate</a>, <a href="https://p5js.org/reference/#/p5/scale">scale</a>, <a href="https://p5js.org/reference/#/p5/translate">translate</a>, or change color on your elements. Here’s <a href="https://ac3882.github.io/A1/index.html">my (ugly) example</a>.
                     </p>
                     <p>Remember: if it’s not ugly you’re doing it wrong.</p>
                 </div>

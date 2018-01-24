@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Tutorial 1" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
+
+  <div class="container">
+  	<div class="row">
+
+  		<div class="col-md-2">
+        <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
+          <ul class="nav nav-stacked" id="sidenav-content"></ul>
+        </div> <!-- /sidenav -->
+      </div> <!-- /col-md-3 -->
+
+      <div class="col-md-8" id="tutorial">
+	      <h1>Tutorial 2</h1>
+        <p class="lead">Making HTML pages and links</p>
+
+        <div class="table-responsive">
+          <table class="table table-borderless">
+
+            <tbody>
+
+              <!-- heading -->
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>1. Make your landing page</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img src="img/t2-01.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  On your computer, locate your <i>/GitHub/username.github.io</i> folder. Make a new folder for your A1 assignment file (I called mine <i>A1</i> but name it whatever you want), and move all your files into that folder.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-02.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Next open a new file in Sublime and enter these lines of code. Save this as the new <i>index.html</i> under your <i>/GitHub/username.github.io</i> folder.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-03.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Your <i>/GitHub/username.github.io</i> folder should now look like this.
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>2. Add links to assignments</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-04.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Continuing in your new <i>index.html</i>, let's add a link to your A1 assignment, like so. (Remember to replace my <i>/A1</i> path with whatever your folder name is.)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-05.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  If you open <i>index.html</i> now you should see this, and you should be able to click on the link to see your week 1 assignment.
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>3. Make a page of images for A2.1</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-06.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  (<b>Note:</b> you're actually free to organize your files however you wish; the only homework requirement is that you maintain a single class homepage from which all your assignments to-date will be accessible. If you know what to do you can feel free to ignore the rest of this tutorial!)
+                  <br><br>
+                  Now add another link for the sketches part of your A2.1 Clocks assignment. I'm putting everything under another <i>/A2</i> folder.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-07.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  I dropped a couple PNG images into my <i>/A2</i> folder, as examples (I didn't draw these, obviously.) And I created another HTML file which I named (arbitrarily) <i>sketches.html</i>.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-08.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  This is what my <i>sketches.html</i> contains. You can see the resulting page at <a href="https://ac3882.github.io/A2/sketches.html">https://ac3882.github.io/A2/sketches.html</a>.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t2-09.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  In the end, this is what my landing page looks like. You can see all of my code in <a href="https://github.com/ac3882/ac3882.github.io">my GitHub repo</a>.
+                  <br><br>
+                  That's all for tutorial 2!
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+        </div> <!-- table-responsive end -->
+
+      </div> <!-- /col-md-8 -->
+    </div> <!-- /row -->
+
+  </div> <!-- /container -->
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</body>
+
+</html>
