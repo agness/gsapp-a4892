@@ -34,7 +34,15 @@
 						<h5>Instructor</h5>
 
 						<li><a href="mailto://agnes.chang@columbia.edu">Agnes Chang</a> <br>
-<!-- 							<span class="text-muted"><small>Office hours by appt.</small></span></li> -->
+							<span class="text-muted"><small>Office hours by appt.</small></span></li>
+					</ul>
+				</div>
+
+				<div class="col-sm-4">
+					<h5>TA</h5>
+					<ul class="list-unstyled">
+						<a href="mailto://ss5127@columbia.edu">Shruti Shubham</a> <br>
+							<span class="text-muted"><small>Mon 6:30–8:30pm, Fayerweather 202</small></span></li>
 					</ul>
 				</div>
 
@@ -42,13 +50,7 @@
 					<h5>Time</h5>
 					Wed 6:30-8:30pm, Avery 114<br>
 					</div>
-<!--
-				<div class="col-sm-4">
-					<h5>TA</h5>
-					<ul class="list-unstyled">
-						<li>TBD</li>
-					</ul>
-				</div> -->
+
 
 			</div>
 		</div>
