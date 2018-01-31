@@ -71,6 +71,31 @@
 
 		<hr>
 
+		<h5>Students</h5>
+		<ul>
+			<li><a href="https://namanaman.github.io/datavis">Naman Agrawal</a></li>
+			<li><a href="https://wb2317.github.io">Weijian Bi</a></li>
+			<li><a href="https://amc2375.github.io">Anna Carlson</a></li>
+			<li><a href="https://whighamrachel.github.io">Whigham Rachel Covington</a></li>
+			<li><a href="https://vaidehidalmia.github.io">Vaidehi Dalmia</a></li>
+			<li><a href="https://erifurusawa.github.io">Eri Furusawa</a></li>
+			<li><a href="https://xg2250.github.io">Xin Guo</a></li>
+			<li><a href="https://yh2876.github.io">Yuan Hua</a></li>
+			<li><a href="https://hilaryheyue.github.io">Yue Hilary He</a></li>
+			<li><a href="https://pankhurikumar23.github.io">Pankhuri Kumar</a></li>
+			<li><a href="https://ml3907.github.io">Mengyao Li</a></li>
+			<li><a href="https://jianweili0.github.io">Jianwei Li</a></li>
+			<li><a href="https://nm2940.github.io">Nanchen Ma</a></li>
+			<li><a href="https://vivngo.github.io">Vivien Ngo</a></li>
+			<li><a href="https://ewp2111.github.io">Emily Wincy Po</a></li>
+			<li><a href="https://navierula.github.io/A4892.html">Navraj Narula</a></li>
+			<li><a href="https://shreyavaidy.github.io/dvproj">Shreya Vaidyanathan</a></li>
+			<li><a href="https://xiaoxuexiao.github.io">Xiaoxue Xiao</a></li>
+			<li><a href="https://wz2360.github.io">Wenjing Zhang</a></li>
+		</ul>
+
+		<hr>
+
     <div id="schedule">
       <!--#include virtual="includes/schedule.html" -->
     </div> <!-- calendar end -->
