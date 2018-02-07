@@ -31,7 +31,7 @@
                     <a name="week1"></a>
                     <h2>Week 1: One dataset visualized two ways</h2>
                     <p>
-                    Follow this class tutorial to use an API and choose your data source from either NYTimes or Spotify.
+                    Sign up for an NYTimes <a href="http://developer.nytimes.com/signup">Developer API Key</a> and follow the class demo code to use the NYTimes <a href="http://developer.nytimes.com/top_stories_v2.json#/Console/GET/%7Bsection%7D.%7Bformat%7D">Top Stories API</a>.
                     </p><p>
                     Create two designs to represent your data, making sure you have a minimum of 20 data points represented (you don’t need to show everything returned from the API.) Create both of these in p5.js and post them on your homepage. Consider making flat sketches before you venture into code.</p>
                 </div>
