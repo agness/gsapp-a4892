@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Tutorial 1" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
+
+  <div class="container">
+  	<div class="row">
+
+  		<div class="col-md-2">
+        <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
+          <ul class="nav nav-stacked" id="sidenav-content"></ul>
+        </div> <!-- /sidenav -->
+      </div> <!-- /col-md-3 -->
+
+      <div class="col-md-8" id="tutorial">
+	      <h1>Tutorial 3</h1>
+        <p class="lead">Setting up a local server</p>
+
+        <div class="table-responsive">
+          <table class="table table-borderless">
+
+            <tbody>
+
+              <!-- heading -->
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>Intro: When localserver is needed</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  &nbsp;
+                </td>
+                <td class="col-md-4">
+                  <p><i>TL;DR:</i> to use font files, images, videos in your p5.js sketch</p>
+                  <p><i>Why?</i> There's a sort of "church-and-state" separation between your browser and your file system for security reasons (imagine if the reverse were true, and google.com could read whatever it wanted off your harddrive!) Thus when you code a static file asset, e.g. a font file, image file, audio/video, etc. into your p5 sketch, JavaScript makes a call for the file, expecting it to be "served" by a server with the same hostname as the sketch.js file. Said server is not there unless we run a local server. Local simply means "on your computer," you still aren't serving to the wider internet. Note that GitHub is the server for each of your homepages, so anything uploaded is automatically served by GitHub to the internet (through HTTP requests as we talked about.)</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>1. For Mac users</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img src="img/t3-01.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  We're going to use Python because it is included as part of Mac OS X. Open <i>Terminal</i> (use Spotlight or find it under <i>Applications > Utilities</i>.)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-02.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  In Terminal, go to your GitHub folder on your computer by using the command <code>cd /path/to/your/folder</code>.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-03.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Open terminal, and type <code>python --version</code>.
+                  <br><br>
+                  If you see version 2.x.x, type <code>python -m SimpleHTTPServer</code>, if you see 3.x.x, type <code>python -m http.server</code> next.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-04.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  The Python server takes a few seconds to start up. Your terminal should now look like this.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-05.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Now go to <a href="http://localhost:8000"><i>http://localhost:8000</i></a> on your browser. You should see your homepage.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-06.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  If everything is working correctly, you'll see your terminal output reflect all the HTTP requests your browser is sending to your local server to fetch your page. Now you can load any p5.js sketches with the same url scheme, for example <i><a href="http://localhost:8000">http://localhost:8000/</a>A1/index.html</i>.
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>2. For Ubuntu/Linux users</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  &nbsp;
+                </td>
+                <td class="col-md-4">
+                  Classmates have reported that <i>no localserver is needed</i> on Ubuntu with Firefox; the browser honors local file read access (probably it allows this as long as files requested are media types like fonts, images, video, etc.)
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" id="signup" class="sidenav-anchor">
+                  <h3>3. For Windows users</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img src="img/t3-w01.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Install <a href="https://nodejs.org/en/">node.js</a>. Download the recommended version for Windows (x64).
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w02.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Run the installer.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w03.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Once you hit finish, open command prompt by typing <i>cmd</i> in your search bar.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w04.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  After the prompt text <i>C:\Users\username></i>, type <code>http-server -g</code>, and hit enter.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w05.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Once that is done. Copy the path to your GitHub folder and type, <code>http-server "YOUR FOLDER PATH"</code>, as demonstrated. Hit enter.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w06.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  You have now created a local server and to access it, copy the IP address, in this case <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a>.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t3-w07.jpg" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Paste the URL <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a> in your browser and you should see your homepage.
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div> <!-- table-responsive end -->
+
+      </div> <!-- /col-md-8 -->
+    </div> <!-- /row -->
+
+  </div> <!-- /container -->
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</body>
+
+</html>
