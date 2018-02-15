@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Assignment 0: Weekly Sparks" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+
+  <!--#include virtual="includes/navigation.html" -->
+
+    <div class="assignment container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Assignment 0: Weekly Sparks</h1>
+                    </div>
+                </div>
+
+            <p>
+            Share a data visualization project or website that you find inspiring. Write a few sentences on what you find notable about the work, and post it to our <a href="https://gsappdataviz-sp18.tumblr.com/">class blog</a>. Prepare two short discussion questions for the class.
+            <ul>
+            <li>Blog <a href="https://courseworks2.columbia.edu/courses/57696/discussion_topics/185710">login info</a> in Canvas</li>
+            <li>Include your UNI at the bottom of your post</li>
+            </ul></p>
+            <p>
+            <br>
+            <h5>FEB 21</h5>
+            <li>  Xiao, Xiaoxue</li>
+            <li>  Zhang, Wenjing</li>
+            <li>  LI, Jianwei</li>
+            <li>  Guo, Xin</li>
+            <li>  Hua, Yuan</li>
+            <h5>FEB 28</h5>
+            <li>  Narula, Navraj</li>
+            <li>  Dalmia, Vaidehi</li>
+            <li>  Li, Mengyao</li>
+            <li>  Vaidyanathan, Shreya</li>
+            <li>  Po, Emily</li>
+            <h5>MAR 7</h5>
+            <li>  Carlson, Anna</li>
+            <li>  Jeong, Yuhwa</li>
+            <li>  Furusawa, Eri</li>
+            <li>  Kumar, Pankhuri</li>
+            <li>  Hudli, Aditi</li>
+            <h5>MAR 21</h5>
+            <li>  Ho, Fiona</li>
+            <li>  He, Kuan</li>
+            <li>  Ngo, Vivien</li>
+            <li>  Daddazio, Elizabeth</li>
+            <li>  Bi, Weijian</li>
+            <h5>MAR 28</h5>
+            <li>  Yang, Yidi</li>
+            <li>  He, Yue</li>
+            <li>  Raman, Ashna</li>
+            <li>  Ma, Nanchen</li>
+            <li>  Wang, Qigao</li>
+            </p>
+
+            </div>
+        </div>
+
+    </div>
+
+  </body>
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</html>
