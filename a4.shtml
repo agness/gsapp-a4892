@@ -32,16 +32,24 @@
                     <a name="week1"></a>
                     <h2>Week 1: Three abstractions, one coded</h2>
                     <p>
-                    Choose your data source from one of these files provided:
+                    Choose your data source from <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a>. Some examples include:
                     <ul>
-                        <li>Census</li>
-                        <li>PLUTO</li>
-                        <li>IMF/World Bank</li>
-                        <li>Climate</li>
-                        <li>Citibike</li>
+                        <li>🌳 street tree census</li>
+                        <li>🚕 taxis</li>
+                        <li>🚇 subways</li>
+                        <li>🚲 citibike</li>
+                        <li>📞 311 calls</li>
+                        <li>🏢 PLUTO (Primary Land Use Tax Lot Output)</li>
+                        <li>... much more</li>
                     </ul>
                     </p><p>
                     Decide what dimensions you’re interested in and represent them any way you want, i.e., find your own “story in the data.” Produce three flat sketches of different layers or related dimensions found in your chosen dataset. Build one of your representations in code.</p><p>
+                    As a first step, you'll want to take a deep dive into the data. How is it structured and what structure do you need to create your visualization? This might be a bit of a messy process, as the data is likely not structured exactly as you need it. Do you need to extract or calculate additional data to better tell your story?
+                    </p><p>
+                    In parallel, work on visual iterations. Consider Bertin's visual variables, as well as information hierarchy and states of your code sketch.
+                    </p><p>
+                    When coding, use <a href="https://p5js.org/reference/#/p5/loadJSON"><code>loadJSON()</code></a> to load your data file, and remember you will need to run a <a href="http://agneschang.net/gsapp-dataviz-archhum/t3.shtml">local server</a>.
+                    </p><p>
                     Post your three flat sketches and one code sketch to your homepage.</p>
                 </div>
                 <div id="week2" class="sidenav-anchor">
