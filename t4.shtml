@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Tutorial 4" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
+
+  <div class="container">
+  	<div class="row">
+
+  		<div class="col-md-2">
+        <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
+          <ul class="nav nav-stacked" id="sidenav-content"></ul>
+        </div> <!-- /sidenav -->
+      </div> <!-- /col-md-3 -->
+
+      <div class="col-md-8" id="tutorial">
+	      <h1>Data Resources</h1>
+
+        <div id="tutorials" class="sidenav-anchor">
+          <h3>Data Tutorials &amp; Guides</h3>
+            <ul>
+              <li><a href="https://github.com/Quartz/bad-data-guide">Quartz Guide to Bad Data</a></li>
+              <li><a href="http://mjwebster.github.io/DataJ/pivottables.html">How to make pivot tables in Excel</a></li>
+              <li><a href="https://mjwebster.github.io/DataJ/tipsheets/ExcelMagic.pdf">Excel magic</a> for data journalists (pdf)</li>
+              <li><a href="https://github.com/propublica/guides/blob/master/data-bulletproofing.md">ProPublica guide to data best practices for journalism</a></li>
+            </ul>
+        </div>
+
+        <div id="sources" class="sidenav-anchor">
+          <h3>Data Sources</h3>
+            <ul>
+              <li><a href="https://opendata.cityofnewyork.us/">NYC Open Data</a>: find trees, taxis, subway, citibike, 311, PLUTO, etc.</li>
+              <li><a href="https://www.census.gov/developers/">US Census Bureau</a>: use their Discovery Tool</li>
+              <li><a href="https://www.data.gov/">Data.gov</a> : everything from hourly precipitation, fruit &amp; vegetable prices, crime reports, to electricity usage.</li>
+              <li><a href="http://www.imf.org/en/Data">International Monetary Fund</a></li>
+              <li><a href="https://data.worldbank.org/">World Bank</a></li>
+              <li><a href="https://earthquake.usgs.gov/data/data.php">USGS Earthquake Catalog</a>, <a href="https://p5js.org/reference/#/p5/httpGet">p5.js</a> example</li>
+            </ul>
+        </div>
+
+        <div id="external" class="sidenav-anchor">
+          <h3>Data Source Lists by Other People</h3>
+            <ul>
+              <li><a href="https://docs.google.com/spreadsheets/d/1hU7Snj4KZ-ppyy388l-sV4I26n4yGVb8xYnygPOS-5k/edit#gid=0">Quartz directory of essential data</a> (google sheet): maintained by Quartz data team.</li>
+              <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a> (github): topic-centric list of high-quality open datasets in public domains.</li>
+              <li><a href="https://www.google.com/publicdata/directory">Google Public Data Explorer</a>: basic interface to explore many of the public datasets above.</li>
+              <li><a href="https://towardsdatascience.com/a-data-ninjas-toolkit-abfe11d38fe8">A Data Ninja’s Toolkit</a>: a guide to more intermediate/advanced tools for data cleaning, exploring, and visualizing.</li>
+            </ul>
+        </div>
+
+      </div> <!-- /col-md-8 -->
+    </div> <!-- /row -->
+
+  </div> <!-- /container -->
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</body>
+
+</html>
