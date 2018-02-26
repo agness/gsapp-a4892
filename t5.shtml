@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="GSAPP DataVis - Tutorial 5" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-2">
+        <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
+          <ul class="nav nav-stacked" id="sidenav-content"></ul>
+        </div> <!-- /sidenav -->
+      </div> <!-- /col-md-3 -->
+
+      <div class="col-md-8" id="tutorial">
+        <h1>Tutorial 5</h1>
+        <p class="lead">Data restructuring</p>
+
+        <div class="table-responsive">
+          <table class="table table-borderless">
+
+            <tbody>
+
+              <tr>
+                <td>
+                  <img src="img/t5-00.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Using the <a href="https://data.cityofnewyork.us/Environment/Energy-and-Water-Data-Disclosure-for-Local-Law-84-/8u86-bviy">NYC 2016 Water and Energy</a> data set as an example, where we want to visualize total water consumption per borough, here we'll walk you through some common data restructuring tactics. (Note: you're no longer allowed to use this set of dimensions from this data set for your assignment. Please find your own dataset!)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-01.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  The Visualization tool on NYC Open Data allows you to quickly check what values to expect. For example, here I see ~4000 rows with "Not Available" value.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-02.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  However, I can also see that this count roughly correlates with the number of rows where "Water Required?" is "No", and cross-checked with the data definitions PDF, this makes sense for us to ignore since we're not interested in understanding "buildings" that don't need water (e.g. a parking lot.)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-03.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Once I downloaded the CSV, I can use Apple's Numbers program (Excel-equivalent) to remove data I don't need. You can use Google Sheets to do this just as easily.<br><br>
+                  Here I went ahead and deleted all the other columns I don't care about.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-04.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  One easy way to delete rows with certain values is to sort.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-05.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  If we sort the entire table by "Water Use", we'll see all the "Not Available" rows at the bottom. I deleted these.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-06.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Next thing I notice is there are rows with no borough information in it too. Borough information is key to our visualization.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-07.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  I'm not sure why it's missing, but there's very few rows with this problem so I don't expect it to impact the final total H2O consumption numbers. I deleted these empty rows also.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-08.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  At this point I exported to CSV and re-imported into Google Sheets, mainly to show you pivot tables in Google Sheets.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-09.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  As first example, let's calculate the total water consumption per borough. To do this, we need data from the borough column and the water use column. Select those and go to <i>Data > Pivot table ...</i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-10.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  You'll be taken to a new sheet, with options on the right for suggested pivot tables. This is a new feature from Google Sheets that is usually handy. You see what we want right there.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-11.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  In one click you're auto-magically given the table you want, and you see the resulting configuration on the right. Make note of this setup in case you need something similar.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-12.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Next example restructuring is with Property Type values: there's way too many of them to be interesting in a visualization. Let's rename them so that things like "K-12 School" and "College/University" both count as "Educational", and "Hospital" as well as "Medical Office" both count as "Medical". To see all the individual values in that column, you can construct a pivot table with unique values, like so.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-13.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Next, I copied the values over to a new sheet, and manually entered the new values I wanted to convert to. Here we've basically constructed a lookup table.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-14.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Now go back to the original sheet and create a new column to hold converted property values based on the lookup sheet. Enter the lookup formula. Now you need to copy the formula all the way down all 7000+ rows in the sheet.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-15.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  If you don't know how already, you can use a keyboard shortcut to do this.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-16.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Now we have converted property type values for all 7K rows.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-17.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Now to see the total H2O consumption by property type and by borough. Select the relevant columns.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-18.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Usually for multi-column cases the suggestions are a bit imperfect, but still it can help get you started. Let's say you click on this.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-19.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  We have sums per property type and now all we need to add is borough.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-20.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  You'll see the result is perhaps not quite what you expect. In any case I'm interested in boroughs as the higher level grouping. You can change this by simply reordering the rows boxes on the right.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-21.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  If everything is working correctly, you'll see your terminal output reflect all the HTTP requests your browser is sending to your local server to fetch your page. Now you can load any p5.js sketches with the same url scheme, for example <i><a href="http://localhost:8000">http://localhost:8000/</a>A1/index.html</i>.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-22.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Finally, before exporting to CSV for your p5.js sketch, make sure any number values you have are in plain vanilla formatting. Otherwise, pretty values like "$1,234,567.89" will be read as strings by Javascript and then you'll have to parse out the punctuation. Easier to reformat in Google Sheets before you export.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/t5-23.png" class="img-responsive">
+                </td>
+                <td class="col-md-4">
+                  Choose the basic 00.00 number format. Now finally you can export by going to <i>File > Download as > Comma separated values</i>. You can see my <a href="https://docs.google.com/spreadsheets/d/1A_FmxvY46SKQPS1rcxgacKdTWWmETXXX4NM1ItBHFxc/edit?usp=sharing">Google Sheet</a> here. Happy coding!
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div> <!-- table-responsive end -->
+
+      </div> <!-- /col-md-8 -->
+    </div> <!-- /row -->
+
+  </div> <!-- /container -->
+
+  <!--#include virtual="includes/footer.shtml" -->
+
+</body>
+
+</html>
