@@ -24,14 +24,20 @@
                     <div class="col-md-12">
                         <h1>Assignment 5: Misrepresentation</h2>
 
-                        <p class="lead">design, as critique, a visualization that is misleading while being an accurate representation of the data</p>
+                        <p class="lead">design a visualization that is misleading while simultaneously an accurate representation</p>
                     </div>
                 </div>
 
-                <p>You’ll be creating a presentation for this assignment.
-                </p><p>
-                Choose a dataset that reflects or is related to an issue you care about. Design a visualization that is misleading while being a technically accurate representation of the data set. Tell us about the dataset and your critique of your own representation.</p>
-
+                <p>This is a design assignment. You are the data and visualization critic.</p>
+                <p>Choose a dataset that is related to an issue you care about. Design a visualization that is misleading while being a technically accurate representation of your chosen data set. You must use a real data set, and your misrepresentation <b>should not be immediately obvious.</b> Challenge yourself to depict a "misleading" story is just as clear and believable, if not more so, than the more accurate (if murky) story in the data; alternatively, explore what forms and aesthetics are possible with visual illusions.</p><p>
+                Write a few paragraphs (250~400 words; hint: your design should be sufficiently complex) to explain your approach. If it helps make your design intention clear, include a correct representation; if it helps you generate ideas, consider datasets on controversial topics with divergent public opinion.</p><p>
+                You may not choose from these common mistakes (find something more interesting!)<ul>
+                    <li>zeroing Y-axis</li>
+                    <li>pie charts with too many labels</li>
+                    <li>3D bar charts</li>
+                    <li>obviously unrelated dimensions</li>
+                    </ul>
+                Create a digital version of your visualization and accompanying text, and post it on your GitHub homepage. (PNG, PDF, HTML, MOV is all fine.)</p>
 
             </div>
         </div>
