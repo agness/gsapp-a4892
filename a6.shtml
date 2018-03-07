@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <!--#set var="title" value="GSAPP DataVis - Assignment 6: Generative Form" -->
+  <!--#set var="title" value="GSAPP DataVis - Assignment 6: Misrepresentation" -->
   <!--#include virtual="includes/header.shtml" -->
 </head>
 
@@ -22,21 +22,22 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Assignment 6: Generative Form</h2>
+                        <h1>Assignment 6: Misrepresentation</h2>
 
-                        <p class="lead">build a generative aesthetic representation of a self-chosen dataset</p>
+                        <p class="lead">design a visualization that is misleading while simultaneously an accurate representation</p>
                     </div>
                 </div>
 
-                <p>Choose your own data set from:
-                    <ul>
-                    <li>Personal</li>
-                    <li>Your research/thesis</li>
-                    <li>Explain a complex concept</li>
-                    <li>Explore an open-ended story</li>
+                <p>This is a design assignment. You are the data and visualization critic.</p>
+                <p>Choose a dataset that is related to an issue you care about. Design a visualization that is misleading while being a technically accurate representation of your chosen data set. You must use a real data set, and your misrepresentation <b>should not be immediately obvious.</b> Challenge yourself to depict a "misleading" story is just as clear and believable, if not more so, than the more accurate (if murky) story in the data; alternatively, explore what forms and aesthetics are possible with visual illusions.</p><p>
+                Write a few paragraphs (250~400 words; hint: your design should be sufficiently complex) to explain your approach. If it helps make your design intention clear, include a correct representation; if it helps you generate ideas, consider datasets on controversial topics with divergent public opinion.</p><p>
+                You may not choose from these common mistakes (find something more interesting!)<ul>
+                    <li>zeroing Y-axis</li>
+                    <li>pie charts with too many labels</li>
+                    <li>3D bar charts</li>
+                    <li>obviously unrelated dimensions</li>
                     </ul>
-                </p><p>
-                Design and build a generative aesthetic representation of your chosen data set. Your representation may or may not be legible but it should convey some aspect (e.g. emotional, complexity, dynamicism, rhythm, etc.) of the data set.</p>
+                Create a digital version of your visualization and accompanying text, and post it on your GitHub homepage. (PNG, PDF, HTML, MOV is all fine.)</p>
 
             </div>
         </div>
