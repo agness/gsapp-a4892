@@ -30,27 +30,32 @@ follow your own data adventure, defining a project around your own interests</p>
                     </div>
                 </div>
 
-                <p><i>TK</i></p>
+                <p>In the final four-week assignment, you will be following your own data adventure (you will continue to work individually.) It should be something you're passionate about and interested in learning.</p>
+                <p>Your final should be larger in scope and complexity than the <a href="a4.shtml">A4 Geography</a> assignment; that is, it should be interactive, have at least two views, and above all it should have a strong storyline. Your visualization should communicate itself without you presenting it. Finally, you will document your process in a blog post.</p>
 
                 <div id="week1" class="sidenav-anchor">
                     <a name="week1"></a>
-                    <h2>Week 1: Three proposals</h2>
-                    <!-- <p><i>TK</i></p> -->
+                    <h2>Week 1: Three sketches</h2>
+                    <p>Decide for one of the three ideas you came up with in your <a href="a5.shtml">email proposal</a>. Create three flat illustrations of how you plan to show the information. Try to put in place everything you will need to be part of the final product. Start parsing the data. Where do you get the data from? How does it look like? Will you access it through an api, json, csv? Collect references that will be relevant for your projects: graph types, visual language, typography. Prepare a short presentation in any format you like and submit your file/URL to Canvas.</p>
                 </div>
                 <div id="week2" class="sidenav-anchor">
                     <a name="week2"></a>
                     <h2>Week 2: Three dataset explorations</h2>
-                    <!-- <p><i>TK</i></p> -->
+                    <p>Load your chosen dataset in code, and go more in-depth: what do your outlier data points look like? How will you account for it visually? What are data points you will discard, abstract, or translate? Remember to document your process throughout this process, including sketches you abandoned and ideas you threw out. Build three code sketches that show different aspects of your dataset and post them to to GitHub.</p>
                 </div>
                 <div id="week3" class="sidenav-anchor">
                     <a name="week3"></a>
                     <h2>Week 3: Working prototype</h2>
-                    <!-- <p><i>TK</i></p> -->
+                    <p>Build your final visualization: you should have a working prototype that loads data, displays it, and allows the user to learn from at least two views of the data. It is okay if your prototype is not final as long as you have the core functionality in place. Link to your prototype from your GitHub homepage.</p>
                 </div>
                 <div id="week4" class="sidenav-anchor">
                     <a name="week4"></a>
                     <h2>Week 4: Polishes &amp; documentation</h2>
-                    <!-- <p><i>TK</i></p> -->
+                    <p>Add the finishing touches to your visualization: bug fixes, color tweaks, pixel nudges, copy edits, etc. Additionally, write a blog post (hosted any way you like, whether an HTML page or on Medium.com. etc.) to document your process. Finally, ensure that all of your work this semester is linked from your GitHub page. Example documentation posts:</p>
+                    <ul>
+                        <li>Accurat—<a href="https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4">The Architecture of a Data Visualization</a></li>
+                        <li>Office for Creative Research—<a href="https://www.popsci.com/article/science/behind-scenes-%E2%80%9C-whole-brilliant-enterprise%E2%80%9D">Behind The Scenes Of “The Whole Brilliant Enterprise”</a></li>
+                    </ul>
                 </div>
 
 
