@@ -51,12 +51,25 @@ follow your own data adventure, defining a project around your own interests</p>
                 <div id="week4" class="sidenav-anchor">
                     <a name="week4"></a>
                     <h2>Week 4: Polishes &amp; documentation</h2>
-                    <p>Add the finishing touches to your visualization: bug fixes, color tweaks, pixel nudges, copy edits, etc. Additionally, write a blog post (hosted any way you like, whether an HTML page or on Medium.com. etc.) to document your process. Finally, ensure that all of your work this semester is linked from your GitHub page. Example documentation posts:</p>
+                    <p>Add the finishing touches to your visualization: bug fixes, color tweaks, pixel nudges, copy edits, etc. Additionally, write a "blog post" (any way you like, whether an HTML page or on Tumblr/Medium/Blogger etc.) to document your process. Finally, ensure that all of your work this semester is linked from your GitHub page.</p>
+                    <p><b>Your final portfolio for the class—your homepage—is due Sunday May 6 11:59pm.</b></p>
+                    <p>
+                    Final project documentation examples:<br>
                     <ul>
                         <li>Accurat—<a href="https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4">The Architecture of a Data Visualization</a></li>
                         <li>Office for Creative Research—<a href="https://www.popsci.com/article/science/behind-scenes-%E2%80%9C-whole-brilliant-enterprise%E2%80%9D">Behind The Scenes Of “The Whole Brilliant Enterprise”</a></li>
                         <li>Truth &amp; Beauty—<a href="https://truth-and-beauty.net/projects/the-rhythm-of-food">The Rhythm of Food</a></li>
                     </ul>
+                    <p>In your documentation, we want to hear from you, in no particular order:<ul>
+                        <li>challenges you encountered</li>
+                        <li>abandoned explorations</li>
+                        <li>your design decisions (how they changed, and why?)</li>
+                        <li>sources of inspiration</li>
+                        <li>tactics, tips, and tricks (software, tools, color picker, etc.)</li>
+                        <li>ideas for future directions (what would you do if you had more time)</li>
+                        </ul>
+                    To give you an idea of the scale I'm looking for: have at least 6 in-progress images, and at least 500 words. You're welcome to write more; however, more is not better. A clear story well-structured is better: What did you learn? What would you tell someone else approaching similar a data vis problem?</p>
+                    <p>Ask questions. Have fun!</p>
                 </div>
 
 
